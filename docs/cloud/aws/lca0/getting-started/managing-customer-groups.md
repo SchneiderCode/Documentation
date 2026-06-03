@@ -1,6 +1,11 @@
-# Managing User Access with Grouper
+# Managing User Access
 
-## Adding Users
+## CU Boulder Users
+CU Boulder user groups are managed through grouper.
+
+> **Note:** Users must be logged in to the CU Boulder VPN to access Grouper.
+
+### Adding Users
 
 AWS customers can add team members as Administrators to their AWS account.
 This is done using [CU's Grouper Tool](https://mygroups.colorado.edu/).
@@ -34,7 +39,7 @@ Note that changes can take up to 15 minutes to take effect.
 
    ![](images/managing-grouper-groups/verify-user.png)
 
-## Removing Users
+### Removing Users
 
 Users can be removed from accessing the AWS account by removing them from the Grouper Group.
 
@@ -45,3 +50,27 @@ Users can be removed from accessing the AWS account by removing them from the Gr
 
 3. Verify the user(s) no longer appear in the table.
 
+## Non CU Boulder Users
+Non CU Boulder user groups are managed through Microsoft Entra groups.
+
+### Your Group Name
+The Entra group name to manage access to your AWS account is in the form '\<account-alias\>-CustomerAdmin'.
+To find your account alias view the top right corner of the screen when logged into the AWS console.
+   ![account-alias](images/managing-grouper-groups/alias.png)
+
+
+### Adding Users
+
+AWS customers can add team members as Administrators to their AWS account.
+This is done using AWS Entra Groups.
+Note that changes can take up to 15 minutes to take effect.
+
+The technical contact person is added as Owner of the Entra group and they will have access to add members to the group.
+
+Refer to [Microsoft's Documentation](https://learn.microsoft.com/en-us/entra/fundamentals/how-to-manage-groups#add-members-or-owners-of-a-group) to add members to groups.
+
+
+### Removing Users
+Users can be removed from accessing the AWS account by removing them from the Entra Group.
+
+Refer to [Microsoft's Documentation](https://learn.microsoft.com/en-us/entra/fundamentals/how-to-manage-groups#remove-members-or-owners-of-a-group) to remove members from groups.
