@@ -46,10 +46,18 @@ Duo offers a variety of methods to log into your account. Depending on what you 
 2. Enter your identikey password when prompted. 
 3. Wait for a push to your phone.  
 
-	![](./faq_images/duo_app2.png) ![](./faq_images/duo_app1.png)
+	`````{image} ./faq_images/duo_app2.png
+	:alt: The DUO app's home screen showing a pending login request for a CU Boulder managed DUO account.
+	:align: center
+	`````
+
+	`````{image} ./faq_images/duo_app1.png
+	:alt: A Duo Security login request showing the username, location and time details, and options to approve or deny the request.
+	:align: center
+	`````
 
 ```{note} 
-Duo push is tied to your device so [you will need to add or remove your device if you get a new phone.](#as-a-cu-boulder-user-how-can-i-manage-my-duo-devices)
+Duo push is tied to your device so [you will need to add or remove your device if you get a new phone.](#as-a-cu-boulder-user-how-do-i-manage-my-duo-account)
 
 There is also an option to generate a temporary passcode from within the Duo app. This passcode can be used to log into <https://duo.colorado.edu>.
 ```
@@ -93,53 +101,21 @@ This documentation is for customers who have [registered a Yubikey with CU Bould
 
 ::::::
 
-### I have a new phone. As a CU Boulder user, how do I move my Duo onto it?
+### As a CU Boulder user, how do I manage my DUO account? 
 ::::{dropdown} Show 
 :icon: note
 
-You can add a new device to your duo account by visiting <a href="https://duo.colorado.edu">https://duo.colorado.edu</a>.
-After a CU authorization page you will be directed to a Duo authentication page. **Ignore the Duo Push prompt and instead click "Add a new device":** 
+**Not sure how to setup your DUO account?** 
 
-![](faq_images/duo_new_device1.png)
+Then we recommend checking OIT's [Guide for DUO MFA](https://oit.colorado.edu/services/identity-access-management/duo-multi-factor-authentication). 
 
-Duo will then try to authenticate your account by push notification to verify your identity. Cancel this push notification...  
+**Need to add a new device or manage existing DUO devices?** 
 
-![](faq_images/duo_new_device2.png)
+Then we recommend checking OIT's [Guide for Managing DUO Devices](https://oit.colorado.edu/tutorial/duo-multi-factor-authentication-manage-devices)
 
-...and click on "Enter a Passcode", or "Call Me". 
-- If you select "Call Me" the simply receive the call and press 1. 
-- If you select "Enter a Passcode" then click "Text me new codes" and you will be sent a list of one time passwords. Type in any one of the codes and you will be authenticated. 
+**Running into issues with using DUO MFA?** 
 
-Once you have verified your identity, follow the instructions provided by Duo to add your device.
-
-If you cannot authenticate your account (e.g. do not have your old device), we suggest reviewing the [Duo FAQ page](https://oit.colorado.edu/services/identity-access-management/multi-factor-remote-access/faq) or contacting <oithelp@colorado.edu>. 
-
-::::
-
-### As a CU Boulder user, how can I manage my Duo devices? 
-::::{dropdown} Show 
-:icon: note
-
-Users can manage their own Duo devices by visiting <https://duo.colorado.edu>. This enables users to add or remove activated devices at their discretion.
-
-After a CU authorization page, you will be directed to a Duo authentication page. Do not respond to the Push notification and instead click the "Settings" button: 
-
-![](./faq_images/duo-management1edit.png)
-
-This will bring up a menu that provides several options on device management and general help. 
-
-Clicking "Add a new device" will allow you to add a new smart phone, tablet, or land-line. Simply select the option you wish to add and follow the steps provided by Duo to complete setting up your new device. 
-
-Selecting "My Settings & Devices" provides a more detailed list of all devices you have registered. From here you can also add a new device, set your default device, and change your default authentication method when you attempt to log in.
-::::
-
-### None of the FAQs for Duo resolved my issue, how do I proceed as a CU Boulder user? 
-::::{dropdown} Show 
-:icon: note
-
-If none of the above resolved the issues you were experiencing, then your Duo account may have expired. The university purges Duo accounts after six months of non-use. You can
-re-enroll by visiting <https://duo.colorado.edu>. If that did not resolve your issue, then we suggest contacting the University helpdesk at <oithelp@colorado.edu> or calling
-303-735-4357.
+Then we recommend checking OIT's [DUO Troubleshooting Guide](https://oit.colorado.edu/services/identity-access-management/multi-factor-remote-access/faq)
 ::::
 
 ## Microsoft Multi-Factor Authentication
@@ -359,7 +335,7 @@ Our recommendation is to use >= `nvhpc_sdk/2025.251` on all GPUs. If you require
 
 * A100: Ampere
 * L40: Ada
-* H200: Hopper
+* H100, H200: Hopper
 * RTX Pro 6000: Blackwell
 ::::
 
