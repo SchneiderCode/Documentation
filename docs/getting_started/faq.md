@@ -335,7 +335,7 @@ Our recommendation is to use >= `nvhpc_sdk/2025.251` on all GPUs. If you require
 
 * A100: Ampere
 * L40: Ada
-* H100, H200: Hopper
+* H200: Hopper
 * RTX Pro 6000: Blackwell
 ::::
 
