@@ -15,7 +15,7 @@ On our [Acknowledging CURC Resources](./acknowledge_curc_resources.md) page, we 
 
 ## Duo Multi-Factor Authentication 
 
-### How do I setup Duo?
+### How do I set up Duo?
 :::{dropdown} Show 
 :icon: note 
 - CU Boulder users can follow these steps:
