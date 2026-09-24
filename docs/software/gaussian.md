@@ -112,7 +112,7 @@ Not all G16 computations scale efficiently beyond a single node! According to th
 Please see the [Gaussian GPU](https://gaussian.com/running/?tabid=5) documentation for information on how configure Gaussian input files to run on GPUs. CURC presently does not have example job scripts for running Gaussian on GPUs. The Gaussian GPU documentation will also enable you to determine which of the [GPU types](../clusters/alpine/alpine-hardware.md#general-resources-gres) currently supported by Alpine will be effective for your calculations. In many cases, SMP parallelization across all of the cores in an `acpu` node will provide better speedup than offloading computational work to a GPU.  
 
 ```{warning}
-G16 can not use the AMD MI100 GPUs in Alpine's `ami100` partition.
+G16 cannot use the AMD MI100 GPUs in Alpine's `ami100` partition.
 ```
 
 ## Running GaussView
