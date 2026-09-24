@@ -1,7 +1,7 @@
 # Gaussian
 
 ```{important}
-Gaussian is available on Alpine and Blanca, only to members of universities that have purchased Gaussian licenses. It cannot be run by other users. Please note and abide by the licensing rights, and citation information shown at the top of your Gaussian output files.
+Gaussian is available on Alpine and Blanca, only to members of universities that have purchased Gaussian licenses. It cannot be run by other users. Please note and abide by the licensing rights and citation information shown at the top of your Gaussian output files.
 ```
 
 This document describes how to run G16 jobs efficiently on Alpine. It does not attempt to teach how to use Gaussian for solving science/engineering questions.
