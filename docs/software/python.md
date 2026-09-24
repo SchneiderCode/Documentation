@@ -74,7 +74,7 @@ __2. Create your own custom environment(s).__
 
 Both options are discussed below.
 
-#### Using one of CURC's pre-installed environment:
+#### Using one of CURC's pre-installed environments:
 
 To use the CURC environment with OpenMP, run the following command with 
 Anaconda initialized:
