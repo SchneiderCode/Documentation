@@ -3,7 +3,7 @@
 [NVIDIA CUDA-X](https://developer.nvidia.com/topics/ai/data-science/cuda-x-for-data-science?size=n_6_n&sort-field=featured&sort-direction=desc) allows researchers to adapt existing CPU-based Python data analytics and machine learning workflows for GPU acceleration with relatively small code changes. 
 
 ```{note}
-Beginning August 11, 2026, the NVIDIA RAPIDS brand will transition to NVIDIA CUDA-X. All library functionality remains the same but, during this transition, much of the documentation will continue reference RAPIDS and/or CUDA-X. Please note that both refer to the same set of NVIDIA supported tools and libraries. 
+Beginning August 11, 2026, the NVIDIA RAPIDS brand will transition to NVIDIA CUDA-X. All library functionality remains the same. However, during this transition, much of the documentation may continue to reference RAPIDS and/or CUDA-X. Please note that both refer to the same set of NVIDIA supported tools and libraries. 
 ```
 
 ## Using our CUDA-X Environment
