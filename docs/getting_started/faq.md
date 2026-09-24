@@ -107,7 +107,7 @@ This documentation is for customers who have [registered a Yubikey with CU Bould
 
 **Not sure how to setup your DUO account?** 
 
-Then we recommend checking OIT's [Guide for DUO MFA](https://oit.colorado.edu/services/identity-access-management/duo-multi-factor-authentication). 
+We recommend checking OIT's [Guide for DUO MFA](https://oit.colorado.edu/services/identity-access-management/duo-multi-factor-authentication). 
 
 **Need to add a new device or manage existing DUO devices?** 
 
