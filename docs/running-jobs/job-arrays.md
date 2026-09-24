@@ -329,5 +329,5 @@ You can use this method with any program that takes command-line arguments, not 
 
 
 ```{seealso}
-The content presented in this page uses examples and information provided in the official SLURM Documentation. If you would like to learn more about Job Arrays, please see the [Job Array Support](https://slurm.schedmd.com/job_array.html) page.
+The content presented in this page uses examples and information provided in the official SLURM Documentation. If you would like to learn more about Job Arrays, please see the [SLURM Job Array Support](https://slurm.schedmd.com/job_array.html) page.
 ```
