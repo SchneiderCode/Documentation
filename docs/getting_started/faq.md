@@ -111,7 +111,7 @@ We recommend checking OIT's [Guide for DUO MFA](https://oit.colorado.edu/service
 
 **Need to add a new device or manage existing DUO devices?** 
 
-Then we recommend checking OIT's [Guide for Managing DUO Devices](https://oit.colorado.edu/tutorial/duo-multi-factor-authentication-manage-devices)
+We recommend checking OIT's [Guide for Managing DUO Devices](https://oit.colorado.edu/tutorial/duo-multi-factor-authentication-manage-devices)
 
 **Running into issues with using DUO MFA?** 
 
