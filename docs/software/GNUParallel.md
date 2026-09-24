@@ -35,7 +35,7 @@ to run as many instances of your python script as you want. Before running GNU P
 ```{tip}
 This example uses a custom python environment built with Anaconda, 
 more information on using Python or R with Anaconda can be found 
-[in the python and R tutorial](./python.md)
+[in the Python and R tutorial](./python.md).
 ```
 
 ```bash
