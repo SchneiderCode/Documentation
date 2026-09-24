@@ -33,7 +33,7 @@ Now create a job script called `run_hello.sh` that will use GNU Parallel
 to run as many instances of your python script as you want. Before running GNU Parallel in our script, we need to load the python and GNU Parallel modules. Your job script should look something like this:
 
 ```{tip}
-This example uses a custom python environment built with Anaconda, 
+This example uses a custom Python environment built with Anaconda; 
 more information on using Python or R with Anaconda can be found 
 [in the Python and R tutorial](./python.md).
 ```
