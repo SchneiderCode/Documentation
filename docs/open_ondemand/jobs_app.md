@@ -12,7 +12,7 @@ The **Jobs** application within Open OnDemand is the perfect tool for individual
 The **Active Jobs** tool allows users to view any of their active jobs (or all jobs) for a specific cluster (or all clusters). A user can view jobs running on [Alpine](../clusters/alpine/index.md), [Blanca](../clusters/blanca/blanca.md), or Core (the cluster that [Core Desktop](./core_desktop.md) and the [MATLAB GUI](./matlab.md) run on) clusters. Additionally, users can cancel their jobs using this tool. To view currently running jobs, first select the **Active Jobs** tool, this will bring you to the interface pictured below. On the right-hand side, you will see a drop-down button that allows you to view all jobs on the specified cluster (determined by the furthest right button) or only your jobs. To cancel a running job, navigate to the job you would like to cancel and select the red delete button. 
 ```{eval-rst}
 .. figure:: ./OnDemand/active_jobs_interface.png
-   :alt: A screenshot showing Open OnDemands Active Jobs dashboard which lists a set of example active jobs. The screenshot highlights the ability to cancel jobs and change the cluster, both of which are explained under the "Active Jobs" heading. 
+   :alt: A screenshot showing Open OnDemand's Active Jobs dashboard which lists a set of example active jobs. The screenshot highlights the ability to cancel jobs and change the cluster, both of which are explained under the "Active Jobs" heading. 
    :align: center
 ```
 
