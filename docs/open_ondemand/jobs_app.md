@@ -21,7 +21,7 @@ The **Active Jobs** tool allows users to view any of their active jobs (or all j
 Although interactive jobs can be extremely helpful, it is often the case that a user would rather submit their job to a cluster where it can run whenever the resources are available. This is accomplished through [Batch Jobs and Job Scripting](../running-jobs/batch-jobs.md). To provide a simple interface for creating batch jobs and jobs scripting, we include the **Job Composer** tool. This tool allows users to modify and create job scripts, schedule jobs, and manage these jobs all in one central location. To create a job, navigate to the **Job Composer** tool and select **New Job**. When first getting started, it is easiest to select **From Default Template**, which will construct a template job with a default name and submit script (job script). Once a new job has been selected, a user can modify the job to their liking by navigating the provided interface. Below we provide a graphic that highlights some of the key features users may be interested in. 
 ```{eval-rst}
 .. figure:: ./OnDemand/job_composer_nav.png
-   :alt: A screen shot of the Open OnDemand Job Composer dashboard, which includes annotated notes for accessing the user interfaces different buttons and an example job script. Descriptions of each button and the screenshot's example code can be found under the "Job Composer Interface Description" heading.
+   :alt: A screenshot of the Open OnDemand Job Composer dashboard, which includes annotated notes for accessing the user interface's different buttons and an example job script. Descriptions of each button and the screenshot's example code can be found under the "Job Composer Interface Description" heading.
    :align: center
 ```
 
