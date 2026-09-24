@@ -115,7 +115,7 @@ We recommend checking OIT's [Guide for Managing DUO Devices](https://oit.colorad
 
 **Running into issues with using DUO MFA?** 
 
-Then we recommend checking OIT's [DUO Troubleshooting Guide](https://oit.colorado.edu/services/identity-access-management/multi-factor-remote-access/faq)
+We recommend checking OIT's [DUO Troubleshooting Guide](https://oit.colorado.edu/services/identity-access-management/multi-factor-remote-access/faq)
 ::::
 
 ## Microsoft Multi-Factor Authentication
